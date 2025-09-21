@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.DS_Store
+
+# Airflow
+airflow.db
+logs/
+dags/__pycache__/
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Spark
+metastore_db/
+derby.log
+.idea/
